@@ -1,0 +1,139 @@
+body
+{
+	background-color: teal;
+	color: white;
+	cursor: pointer;
+	background-image: url("imfond.png");
+	background-attachment: unset; /* ou fixed relative absolute, pour tester le fond*/
+	background-repeat: no-repeat; /* fond ne se repete pas */
+	background-position: +1050px 150px; /* on peut utiliser les valeurs 200px 30px;*/
+	font-family: 'Calibri', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+	opacity: 0.9;
+	overflow: scroll;
+	text-align: justify;
+	visibility: visible;
+}
+/*background-image*/
+
+h1
+{
+	background-color: #33D062; /*----------*/
+	color: blue; /*----------*/
+    font-size: 3.0em; /*----------*/
+	font-weight: bold; /*----------*/
+	opacity: 0.4; /*effet transparent*/
+	text-align: center; /*----------*/
+	text-decoration: blink; /*----------*/
+	font-family: calibri, Verdana, "Trebuchet MS", sans-serif; /*----------*/
+	border-radius: 30px 30px 30px 30px;
+}
+
+contact
+{
+	font-size: large;
+}
+
+h3
+
+{
+	text-align: justify;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #a2eb10;
+}
+
+h5
+{
+	color: #a2eb10;
+	text-decoration: overline;
+	font-size: 1.2em;
+}
+p
+{
+	color: #a2eb10; /*----------*/
+	font-family: calibri, Verdana, "Trebuchet MS", sans-serif; /*----------*/
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+a:hover
+{
+	color: #0da3a3;
+}
+
+class, footer
+{
+	color: #1FCFDE;
+	font-size: 1.1em;
+	text-align: center;
+	text-decoration: underline;
+	position: absolute; bottom: -12%; left: 0; right: 0;
+}
+
+span
+{
+	color: white;
+}
+body
+{
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+div
+{
+	color: #a2eb10;
+}
+
+form
+{
+	color:#e2ffbe;
+	font-weight: bold;
+	font-size: 1.0em;
+}
+
+html 
+{
+	height: 100%
+}
+
+
+@media screen and (max-width: 1280px)
+{
+
+}
+
+
+@media all and (min-width: 1024px) and (max-width: 1280px)
+{
+
+}
+
+/*
+@media tv 
+{
+
+}
+*/
+
+@media all and (orientation: portrait)
+{
+	
+}
+
+/*
+input
+{
+	text-decoration: underline;
+}
+*/
+
+/*
+mark
+{
+	background-color: silver;
+	color: black;
+}
+*/
